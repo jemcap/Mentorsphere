@@ -1,9 +1,13 @@
 // import UsersList from "./components/users-list.component";
+import Navbar from "./components/navbar.component";
 
 function App() {
   return (
     <>
-      {/* <UsersList /> */}
+      <div className="align-element">
+        {/* <UsersList /> */}
+        <Navbar />
+      </div>
     </>
   );
 }
